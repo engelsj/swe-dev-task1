@@ -1,8 +1,11 @@
 package Solution;
 
+import Solution.Tree.Node;
+import Solution.Tree.Tree;
+
 public class DevTaskOneSolution {
 
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q){
+    public Node lowestCommonAncestor(Node root, Node p, Node q){
 
         if(root == null)
             return null;
@@ -10,8 +13,8 @@ public class DevTaskOneSolution {
         if(root == p || root == q)
             return root;
 
-        TreeNode left = lowestCommonAncestor(root.left, p , q);
-        TreeNode right = lowestCommonAncestor(root.right, p , q);
+        Node left = lowestCommonAncestor(root.left, p , q);
+        Node right = lowestCommonAncestor(root.right, p , q);
 
         if(left != null && right != null)
             return root;
