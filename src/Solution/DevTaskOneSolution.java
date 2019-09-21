@@ -1,27 +1,58 @@
 package Solution;
 
 import Solution.Tree.Node;
-import Solution.Tree.Tree;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class DevTaskOneSolution {
 
-    public Node lowestCommonAncestor(Node root, Node p, Node q){
+    Node root;
+    private List<Integer> path1 = new ArrayList<>();
+    private List<Integer> path2 = new ArrayList<>();
 
-        if(root == null)
-            return null;
-
-        if(root == p || root == q)
-            return root;
-
-        Node left = lowestCommonAncestor(root.left, p , q);
-        Node right = lowestCommonAncestor(root.right, p , q);
-
-        if(left != null && right != null)
-            return root;
-        else if(left == null && right == null)
-            return null;
-        else
-            return left == null?right:left;
+    // Finds the path from root node to given root of the tree.
+    public Integer findLCA(int n1, int n2, Node root) {
+        this.root = root;
+        path1.clear();
+        path2.clear();
+        return findLCAInternal(root, n1, n2);
     }
 
+    private Integer findLCAInternal(Node root, int n1, int n2) {
+
+        if (!findPath(root, n1, path1) || !findPath(root, n2, path2))
+            return -1;
+
+        int i;
+        for (i = 0; i < path1.size() && i < path2.size(); i++)
+            if (!path1.get(i).equals(path2.get(i)))
+                break;
+        return path1.get(i-1);
+    }
+
+    // Finds the path from root node to given root of the tree, Stores the
+    // path in a vector path[], returns true if path exists otherwise false
+    private boolean findPath(Node root, int n, List<Integer> path)
+    {
+        // base case
+        if (root == null)
+            return false;
+
+        // Store this node . The node will be removed if
+        // not in path from root to n.
+        path.add(root.data);
+
+        if (root.data == n)
+            return true;
+        if (root.left != null && findPath(root.left, n, path))
+            return true;
+        if (root.right != null && findPath(root.right, n, path))
+            return true;
+
+        // If not present in subtree rooted with root, remove root from
+        // path[] and return false
+        path.remove(path.size()-1);
+        return false;
+    }
 }

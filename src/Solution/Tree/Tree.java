@@ -5,17 +5,20 @@ public class Tree {
     // Function to insert nodes in level order
     public Node insertLevelOrder(Integer[] arr, Node root, Integer i){
         // Base case for recursion
-        if (i < arr.length) {
-            Node temp = new Node(arr[i]);
-            root = temp;
+        if(arr != null) {
+            if (i < arr.length) {
+                Node temp = new Node(arr[i]);
+                root = temp;
 
-            // insert left child
-            root.left = insertLevelOrder(arr, root.left, 2 * i + 1);
+                // insert left child
+                root.left = insertLevelOrder(arr, root.left, 2 * i + 1);
 
-            // insert right child
-            root.right = insertLevelOrder(arr, root.right, 2 * i + 2);
+                // insert right child
+                root.right = insertLevelOrder(arr, root.right, 2 * i + 2);
+            }
+            return root;
         }
-        return root;
+        return null;
     }
 
     // Function to print tree nodes in InOrder fashion
