@@ -1,4 +1,6 @@
-public class Main {
+package Solution;
+
+public class DevTaskOneSolution {
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q){
 
