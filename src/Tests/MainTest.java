@@ -40,4 +40,15 @@ public class MainTest {
         tree.root = tree.insertLevelOrder(arr, tree.root, 0);
         assertEquals( solution.findLCA(4 ,6, tree.root), new Integer(-1));
     }
+
+    // test with a one value tree
+    @Test
+    public void testSingleValueTree()
+    {
+        DevTaskOneSolution solution = new DevTaskOneSolution();
+        Tree tree = new Tree();
+        Integer arr[] = {1};
+        tree.root = tree.insertLevelOrder(arr, tree.root, 0);
+        assertEquals( solution.findLCA(1 ,1, tree.root), new Integer(1));
+    }
 }
