@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5319e129-474b-4ab9-ad3e-2b0b919ab479" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution/Tree/Tree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,16 +14,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="196" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,20 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="315">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution/Tree/Tree.java">
+        <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            <state relative-caret-position="375">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -50,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution/Tree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,16 +85,16 @@
         <option value="$PROJECT_DIR$/src/Solution/Main.java" />
         <option value="$PROJECT_DIR$/src/Solution/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/Solution/Tree.java" />
-        <option value="$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java" />
-        <option value="$PROJECT_DIR$/src/Solution/Tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/Solution/Tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/Solution/Tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java" />
         <option value="$PROJECT_DIR$/src/Tests/MainTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="662" />
-    <option name="y" value="26" />
+    <option name="x" value="57" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="941" />
   </component>
@@ -98,6 +103,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +140,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testStandardBinaryTreeInput">
+  <component name="RunManager" selected="JUnit.MainTest">
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
@@ -195,7 +200,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testStandardBinaryTreeInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testNullBinaryTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
         <pattern>
@@ -205,16 +210,65 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
-      <option name="METHOD_NAME" value="testStandardBinaryTreeInput" />
+      <option name="METHOD_NAME" value="testNullBinaryTree" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testNullInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swe-dev-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
+      <option name="METHOD_NAME" value="testNullInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testSingleValueTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swe-dev-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
+      <option name="METHOD_NAME" value="testSingleValueTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution in swe-dev-task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swe-dev-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Solution" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.testStandardBinaryTreeInput" />
         <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testNullInput" />
+        <item itemvalue="JUnit.MainTest.testSingleValueTree" />
+        <item itemvalue="JUnit.Solution in swe-dev-task1" />
+        <item itemvalue="JUnit.MainTest.testNullBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -230,32 +284,54 @@
       <updated>1568723347983</updated>
       <workItem from="1568723350492" duration="306000" />
       <workItem from="1568988720264" duration="217000" />
-      <workItem from="1569067966262" duration="5926000" />
+      <workItem from="1569067966262" duration="5280000" />
+      <workItem from="1569253559185" duration="24000" />
+      <workItem from="1569329923076" duration="449000" />
+      <workItem from="1569581805033" duration="204000" />
+      <workItem from="1570014771079" duration="1091000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2019.09.21 at 14h 21m 28s.xml">
+    <history-entry file="MainTest_testEmptyBinaryTree - 2019.09.21 at 15h 59m 12s.xml">
+      <configuration name="MainTest.testEmptyBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testNullBinaryTree - 2019.09.21 at 15h 59m 45s.xml">
+      <configuration name="MainTest.testNullBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testNullBinaryTree - 2019.09.21 at 16h 00m 48s.xml">
+      <configuration name="MainTest.testNullBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2019.09.21 at 16h 07m 43s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.09.21 at 14h 24m 38s.xml">
+    <history-entry file="MainTest - 2019.09.21 at 16h 20m 22s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testStandardBinaryTreeInput - 2019.09.21 at 14h 58m 02s.xml">
-      <configuration name="MainTest.testStandardBinaryTreeInput" configurationId="JUnit" />
+    <history-entry file="Solution_in_swe-dev-task1 - 2019.09.21 at 16h 21m 14s.xml">
+      <configuration name="Solution in swe-dev-task1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testStandardBinaryTreeInput - 2019.09.21 at 15h 15m 09s.xml">
-      <configuration name="MainTest.testStandardBinaryTreeInput" configurationId="JUnit" />
+    <history-entry file="MainTest - 2019.09.24 at 14h 00m 06s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testSingleValueTree - 2019.09.27 at 11h 58m 35s.xml">
+      <configuration name="MainTest.testSingleValueTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testSingleValueTree - 2019.10.02 at 12h 41m 18s.xml">
+      <configuration name="MainTest.testSingleValueTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testSingleValueTree - 2019.10.02 at 12h 41m 54s.xml">
+      <configuration name="MainTest.testSingleValueTree" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6449000" />
+    <option name="totallyTimeSpent" value="11136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="662" y="26" width="1400" height="941" extended-state="0" />
+    <frame x="57" y="23" width="1400" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,40 +360,56 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3298969" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lowest_common_ancestor$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1569079220923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lowest_common_ancestor$Solution_in_swe_dev_task1.ic" NAME="Solution in swe-dev-task1 Coverage Results" MODIFIED="1569079272895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Solution.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution/Tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        <state>
+          <caret selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution/Tree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

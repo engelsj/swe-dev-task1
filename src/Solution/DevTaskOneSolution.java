@@ -1,7 +1,6 @@
 package Solution;
 
 import Solution.Tree.Node;
-import Solution.Tree.Tree;
 
 public class DevTaskOneSolution {
 

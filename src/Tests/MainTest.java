@@ -1,18 +1,18 @@
 package Tests;
 
 import Solution.DevTaskOneSolution;
-import Solution.Tree.Tree;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class MainTest {
 
-    // tests a generic binary tree
+    // test will null inputs
     @Test
-    public void testStandardBinaryTreeInput() {
+    public void testNullInput() {
         DevTaskOneSolution solution = new DevTaskOneSolution();
-        Tree tree = new Tree();
-        Integer arr[] = { 3,5,1,6,2,0,8, null, null ,7,4 };
-        tree.root = tree.insertLevelOrder(arr, tree.root, 0);
-        tree.inOrder(tree.root);
+        Assert.assertNull(solution.lowestCommonAncestor(null, null,null));
     }
+
+    // test with null root and not null nodes
+    public void test
 }
