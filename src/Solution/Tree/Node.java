@@ -8,10 +8,18 @@ public class Node{
     public Node left, right;
 
     // constuctor that creates a new node with null children
-    Node(Integer data)
+    public Node(Integer data)
     {
         this.data = data;
         this.left = null;
         this.right = null;
+    }
+
+    // constuctor that creates a nude with children
+    public Node(Integer data, Node right, Node left)
+    {
+        this.data = data;
+        this.left = left;
+        this.right = right;
     }
 }
