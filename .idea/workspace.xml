@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5319e129-474b-4ab9-ad3e-2b0b919ab479" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/swe-dev-task1/Solution/DevTaskOneSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swe-dev-task1/Solution/DevTaskOneSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/swe-dev-task1/Solution/Tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/swe-dev-task1/Solution/Tree/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/DevTaskOneSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution/Tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/Tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/MainTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5319e129-474b-4ab9-ad3e-2b0b919ab479" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +20,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="577">
               <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
             </state>
           </provider>
@@ -289,14 +282,11 @@
       <workItem from="1569067966262" duration="5280000" />
       <workItem from="1569253559185" duration="24000" />
       <workItem from="1569329923076" duration="449000" />
-      <workItem from="1569581805033" duration="105000" />
+      <workItem from="1569581805033" duration="204000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_testEmptyBinaryTree - 2019.09.21 at 15h 58m 25s.xml">
-      <configuration name="MainTest.testEmptyBinaryTree" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_testEmptyBinaryTree - 2019.09.21 at 15h 58m 35s.xml">
       <configuration name="MainTest.testEmptyBinaryTree" configurationId="JUnit" />
     </history-entry>
@@ -324,15 +314,18 @@
     <history-entry file="MainTest - 2019.09.24 at 14h 00m 06s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainTest_testSingleValueTree - 2019.09.27 at 11h 58m 35s.xml">
+      <configuration name="MainTest.testSingleValueTree" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9946000" />
+    <option name="totallyTimeSpent" value="10045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1400" height="941" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,7 +398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="577">
           <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
         </state>
       </provider>
