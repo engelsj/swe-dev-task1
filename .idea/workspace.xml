@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5319e129-474b-4ab9-ad3e-2b0b919ab479" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Solution/Tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/Tree/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="55" column="97" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+            <state relative-caret-position="432">
+              <caret line="122" column="1" lean-forward="true" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,8 +181,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testRootWithLeftChild">
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainTest.testRootWithRootParameter">
+    <configuration name="MainTest.testRootWithLoopedChildTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
         <pattern>
@@ -193,28 +192,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.testNullTreeNotNullNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="swe-dev-task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
-      <option name="METHOD_NAME" value="testNullTreeNotNullNodes" />
+      <option name="METHOD_NAME" value="testRootWithLoopedChildTree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testRootWithLeftChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testRootWithLoopedChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
         <pattern>
@@ -224,13 +208,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
-      <option name="METHOD_NAME" value="testRootWithLeftChild" />
+      <option name="METHOD_NAME" value="testRootWithLoopedChildren" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testRootWithNullChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testRootWithLoopedTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
         <pattern>
@@ -240,13 +224,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
-      <option name="METHOD_NAME" value="testRootWithNullChildren" />
+      <option name="METHOD_NAME" value="testRootWithLoopedTree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testRootWithOneChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testRootWithRootParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
         <pattern>
@@ -256,7 +240,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
-      <option name="METHOD_NAME" value="testRootWithOneChildren" />
+      <option name="METHOD_NAME" value="testRootWithRootParameter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testRootWithSameValueAsChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swe-dev-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.MainTest" />
+      <option name="METHOD_NAME" value="testRootWithSameValueAsChildren" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -264,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest.testRootWithLeftChild" />
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testRootWithOneChildren" />
-        <item itemvalue="JUnit.MainTest.testRootWithNullChildren" />
-        <item itemvalue="JUnit.MainTest.testNullTreeNotNullNodes" />
+        <item itemvalue="JUnit.MainTest.testRootWithRootParameter" />
+        <item itemvalue="JUnit.MainTest.testRootWithLoopedChildTree" />
+        <item itemvalue="JUnit.MainTest.testRootWithLoopedTree" />
+        <item itemvalue="JUnit.MainTest.testRootWithLoopedChildren" />
+        <item itemvalue="JUnit.MainTest.testRootWithSameValueAsChildren" />
       </list>
     </recent_temporary>
   </component>
@@ -288,44 +288,44 @@
       <workItem from="1569253559185" duration="24000" />
       <workItem from="1569329923076" duration="449000" />
       <workItem from="1569581805033" duration="204000" />
-      <workItem from="1570014771079" duration="2226000" />
+      <workItem from="1570014771079" duration="3113000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_testRootWithOneChildren - 2019.10.02 at 12h 51m 20s.xml">
-      <configuration name="MainTest.testRootWithOneChildren" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithSameValueAsChildren - 2019.10.02 at 14h 08m 06s.xml">
+      <configuration name="MainTest.testRootWithSameValueAsChildren" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithOneChildren - 2019.10.02 at 12h 55m 03s.xml">
-      <configuration name="MainTest.testRootWithOneChildren" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedChildren - 2019.10.02 at 14h 09m 18s.xml">
+      <configuration name="MainTest.testRootWithLoopedChildren" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithOneChildren - 2019.10.02 at 12h 55m 15s.xml">
-      <configuration name="MainTest.testRootWithOneChildren" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedChildren - 2019.10.02 at 14h 09m 25s.xml">
+      <configuration name="MainTest.testRootWithLoopedChildren" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithLeftChild - 2019.10.02 at 12h 56m 26s.xml">
-      <configuration name="MainTest.testRootWithLeftChild" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedChildren - 2019.10.02 at 14h 09m 32s.xml">
+      <configuration name="MainTest.testRootWithLoopedChildren" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithLeftChild - 2019.10.02 at 12h 56m 54s.xml">
-      <configuration name="MainTest.testRootWithLeftChild" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedChildren - 2019.10.02 at 14h 10m 42s.xml">
+      <configuration name="MainTest.testRootWithLoopedChildren" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithLeftChild - 2019.10.02 at 12h 57m 19s.xml">
-      <configuration name="MainTest.testRootWithLeftChild" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedTree - 2019.10.02 at 14h 10m 44s.xml">
+      <configuration name="MainTest.testRootWithLoopedTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithLeftChild - 2019.10.02 at 12h 57m 38s.xml">
-      <configuration name="MainTest.testRootWithLeftChild" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedTree - 2019.10.02 at 14h 10m 49s.xml">
+      <configuration name="MainTest.testRootWithLoopedTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest - 2019.10.02 at 12h 57m 49s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedTree - 2019.10.02 at 14h 11m 11s.xml">
+      <configuration name="MainTest.testRootWithLoopedTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithLeftChild - 2019.10.02 at 12h 58m 09s.xml">
-      <configuration name="MainTest.testRootWithLeftChild" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedTree - 2019.10.02 at 14h 14m 11s.xml">
+      <configuration name="MainTest.testRootWithLoopedTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainTest_testRootWithLeftChild - 2019.10.02 at 13h 00m 44s.xml">
-      <configuration name="MainTest.testRootWithLeftChild" configurationId="JUnit" />
+    <history-entry file="MainTest_testRootWithLoopedChildTree - 2019.10.02 at 14h 15m 25s.xml">
+      <configuration name="MainTest.testRootWithLoopedChildTree" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12271000" />
+    <option name="totallyTimeSpent" value="13158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1400" height="941" extended-state="0" />
@@ -338,7 +338,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32979977" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32979977" />
@@ -405,8 +405,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="55" column="97" selection-start-line="55" selection-start-column="97" selection-end-line="55" selection-end-column="97" />
+        <state relative-caret-position="432">
+          <caret line="122" column="1" lean-forward="true" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
