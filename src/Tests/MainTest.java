@@ -135,4 +135,17 @@ public class MainTest {
         Assert.assertEquals(solution.lowestCommonAncestor(root,five,six), root);
     }
 
+    @Test
+    public void testEvenTree(){
+        DevTaskOneSolution solution = new DevTaskOneSolution();
+        Node four = new Node(4);
+        Node five = new Node(5);
+        Node two = new Node(2, five, four);
+        Node six = new Node(6);
+        Node three = new Node(3, six, null);
+        Node root = new Node(1, three, two);
+        Assert.assertEquals(solution.lowestCommonAncestor(root,four,five), two);
+        Assert.assertEquals(solution.lowestCommonAncestor(root,six,five), root);
+    }
+
 }
