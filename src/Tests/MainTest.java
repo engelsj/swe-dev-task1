@@ -119,5 +119,20 @@ public class MainTest {
         Assert.assertEquals(solution.lowestCommonAncestor(root,leftChild,root), root);
     }
 
+    // tests with a standard given tree
+    @Test
+    public void testStandardTree(){
+        DevTaskOneSolution solution = new DevTaskOneSolution();
+        Node eight = new Node(8);
+        Node seven = new Node(7);
+        Node five = new Node (5, eight,seven);
+        Node three = new Node(3, null,five);
+        Node six = new Node(6);
+        Node four = new Node(4, null,six);
+        Node two = new Node(2, null, four);
+        Node root = new Node(1,three,two);
+        Assert.assertEquals(solution.lowestCommonAncestor(root,seven,eight), five);
+        Assert.assertEquals(solution.lowestCommonAncestor(root,five,six), root);
+    }
 
 }
