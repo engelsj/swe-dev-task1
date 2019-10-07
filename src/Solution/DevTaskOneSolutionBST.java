@@ -1,10 +1,10 @@
 package Solution;
 
-import Solution.Tree.Node;
+import Solution.Tree.BSTNode;
 
-public class DevTaskOneSolution {
+public class DevTaskOneSolutionBST {
 
-    public Node lowestCommonAncestor(Node root, Node p, Node q){
+    public BSTNode lowestCommonAncestor(BSTNode root, BSTNode p, BSTNode q){
 
         if(root == null)
             return null;
@@ -12,8 +12,8 @@ public class DevTaskOneSolution {
         if(root == p || root == q)
             return root;
 
-        Node left = lowestCommonAncestor(root.left, p , q);
-        Node right = lowestCommonAncestor(root.right, p , q);
+        BSTNode left = lowestCommonAncestor(root.left, p , q);
+        BSTNode right = lowestCommonAncestor(root.right, p , q);
 
         if(left != null && right != null)
             return root;

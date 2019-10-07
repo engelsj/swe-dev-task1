@@ -1,7 +1,7 @@
 package Tests;
 
-import Solution.DevTaskOneSolution;
-import Solution.Tree.Node;
+import Solution.DevTaskOneSolutionBST;
+import Solution.Tree.BSTNode;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,27 +10,26 @@ public class MainTest {
     // test will null inputs
     @Test
     public void testNullInput() {
-        DevTaskOneSolution solution = new DevTaskOneSolution();
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
         Assert.assertNull(solution.lowestCommonAncestor(null, null,null));
     }
 
     // test with null root and not null nodes
     @Test
     public void testNullRoot(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(5);
-        Node leftChild = new Node(6);
-        Node root = null;
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(5);
+        BSTNode root = null;
         Assert.assertNull(solution.lowestCommonAncestor(root, rightChild,rightChild));
     }
 
     // test with root with null childern
     @Test
     public void testRootWithNullChildren(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = null;
-        Node leftChild = null;
-        Node root = new Node(1,rightChild,leftChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = null;
+        BSTNode leftChild = null;
+        BSTNode root = new BSTNode(1,rightChild,leftChild);
         Assert.assertNull(solution.lowestCommonAncestor(root, rightChild,rightChild));
     }
 
@@ -38,10 +37,10 @@ public class MainTest {
     // expected to get back not null child
     @Test
     public void testRootWithRightChild(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(2);
-        Node leftChild = null;
-        Node root = new Node(1,rightChild,leftChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(2);
+        BSTNode leftChild = null;
+        BSTNode root = new BSTNode(1,rightChild,leftChild);
         Assert.assertEquals(solution.lowestCommonAncestor(root, rightChild,rightChild), rightChild);
     }
 
@@ -49,48 +48,48 @@ public class MainTest {
     // expected to get back not null child
     @Test
     public void testRootWithLeftChild(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = null;
-        Node leftChild = new Node(2);
-        Node root = new Node(1,rightChild,leftChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = null;
+        BSTNode leftChild = new BSTNode(2);
+        BSTNode root = new BSTNode(1,rightChild,leftChild);
         Assert.assertEquals(solution.lowestCommonAncestor(root,rightChild,leftChild), leftChild);
     }
 
     // test with same children value
     @Test
     public void testRootWithSameChildValue(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(2);
-        Node leftChild = new Node(2);
-        Node root = new Node(1,rightChild,leftChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(2);
+        BSTNode leftChild = new BSTNode(2);
+        BSTNode root = new BSTNode(1,rightChild,leftChild);
         Assert.assertEquals(solution.lowestCommonAncestor(root,rightChild,leftChild), root);
     }
 
     // test with same value as children value
     @Test
     public void testRootWithSameValueAsChildren(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(2);
-        Node leftChild = new Node(2);
-        Node root = new Node(2,rightChild,leftChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(2);
+        BSTNode leftChild = new BSTNode(2);
+        BSTNode root = new BSTNode(2,rightChild,leftChild);
         Assert.assertEquals(solution.lowestCommonAncestor(root,rightChild,leftChild), root);
     }
 
     // test with loopedChildren
     @Test
     public void testRootWithLoopedChildren(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(1);
-        Node root = new Node(1,rightChild,rightChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(1);
+        BSTNode root = new BSTNode(1,rightChild,rightChild);
         Assert.assertEquals(solution.lowestCommonAncestor(root,rightChild,rightChild), root);
     }
 
     // test with looped tree
     @Test
     public void testRootWithLoopedTree(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(1);
-        Node root = new Node(1,rightChild,rightChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(1);
+        BSTNode root = new BSTNode(1,rightChild,rightChild);
         rightChild.right = root;
         Assert.assertEquals(solution.lowestCommonAncestor(root,rightChild,rightChild), root);
     }
@@ -98,12 +97,12 @@ public class MainTest {
     // test with looped tree
     @Test
     public void testRootWithLoopedChildTree(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(1);
-        Node leftChild = new Node(2);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(1);
+        BSTNode leftChild = new BSTNode(2);
         rightChild.left = leftChild;
         leftChild.right = rightChild;
-        Node root = new Node(1,rightChild,leftChild);
+        BSTNode root = new BSTNode(1,rightChild,leftChild);
         rightChild.right = root;
         Assert.assertEquals(solution.lowestCommonAncestor(root,leftChild,rightChild), root);
     }
@@ -111,10 +110,10 @@ public class MainTest {
     // test with looped tree
     @Test
     public void testRootWithRootParameter(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node rightChild = new Node(1);
-        Node leftChild = new Node(2);
-        Node root = new Node(3,rightChild,leftChild);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode rightChild = new BSTNode(1);
+        BSTNode leftChild = new BSTNode(2);
+        BSTNode root = new BSTNode(3,rightChild,leftChild);
         rightChild.right = root;
         Assert.assertEquals(solution.lowestCommonAncestor(root,leftChild,root), root);
     }
@@ -122,28 +121,28 @@ public class MainTest {
     // tests with a standard given tree
     @Test
     public void testStandardTree(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node eight = new Node(8);
-        Node seven = new Node(7);
-        Node five = new Node (5, eight,seven);
-        Node three = new Node(3, null,five);
-        Node six = new Node(6);
-        Node four = new Node(4, null,six);
-        Node two = new Node(2, null, four);
-        Node root = new Node(1,three,two);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode eight = new BSTNode(8);
+        BSTNode seven = new BSTNode(7);
+        BSTNode five = new BSTNode (5, eight,seven);
+        BSTNode three = new BSTNode(3, null,five);
+        BSTNode six = new BSTNode(6);
+        BSTNode four = new BSTNode(4, null,six);
+        BSTNode two = new BSTNode(2, null, four);
+        BSTNode root = new BSTNode(1,three,two);
         Assert.assertEquals(solution.lowestCommonAncestor(root,seven,eight), five);
         Assert.assertEquals(solution.lowestCommonAncestor(root,five,six), root);
     }
 
     @Test
     public void testEvenTree(){
-        DevTaskOneSolution solution = new DevTaskOneSolution();
-        Node four = new Node(4);
-        Node five = new Node(5);
-        Node two = new Node(2, five, four);
-        Node six = new Node(6);
-        Node three = new Node(3, six, null);
-        Node root = new Node(1, three, two);
+        DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
+        BSTNode four = new BSTNode(4);
+        BSTNode five = new BSTNode(5);
+        BSTNode two = new BSTNode(2, five, four);
+        BSTNode six = new BSTNode(6);
+        BSTNode three = new BSTNode(3, six, null);
+        BSTNode root = new BSTNode(1, three, two);
         Assert.assertEquals(solution.lowestCommonAncestor(root,four,five), two);
         Assert.assertEquals(solution.lowestCommonAncestor(root,six,five), root);
     }
