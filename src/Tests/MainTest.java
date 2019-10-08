@@ -134,6 +134,7 @@ public class MainTest {
         Assert.assertEquals(solution.lowestCommonAncestor(root,five,six), root);
     }
 
+    // tests a balances binary search tree
     @Test
     public void testEvenTree(){
         DevTaskOneSolutionBST solution = new DevTaskOneSolutionBST();
@@ -146,5 +147,5 @@ public class MainTest {
         Assert.assertEquals(solution.lowestCommonAncestor(root,four,five), two);
         Assert.assertEquals(solution.lowestCommonAncestor(root,six,five), root);
     }
-
+    
 }
