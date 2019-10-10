@@ -21,6 +21,7 @@ public class DevTaskOneSolutionBST {
             return null;
         else
             return left == null?right:left;
+
     }
 
 }
