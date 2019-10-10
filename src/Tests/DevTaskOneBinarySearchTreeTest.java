@@ -5,7 +5,7 @@ import Solution.Tree.BSTNode;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MainTest {
+public class DevTaskOneBinarySearchTreeTest {
 
     // test will null inputs
     @Test
