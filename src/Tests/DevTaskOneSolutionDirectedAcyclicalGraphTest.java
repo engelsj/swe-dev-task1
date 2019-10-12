@@ -11,12 +11,13 @@ import static org.junit.Assert.*;
 public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
 
 
+    //  testing from the example graph given in class
     @Test
-    public void testPrintGraph(){
-        Graph<Integer, DefaultEdge> graph;
-        graph = new DirectedAcyclicGraph<Integer, DefaultEdge>(DefaultEdge.class);
+    public void testExampleLCA(){
+        DirectedAcyclicGraph<Integer, DefaultEdge> graph = new DirectedAcyclicGraph<Integer, DefaultEdge>(DefaultEdge.class);
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG(graph);
 
-        for(int i = 0; i < 14; i++)
+        for(int i = 1; i < 14; i++)
             graph.addVertex(i);
 
         graph.addEdge(1,2);
@@ -31,11 +32,47 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
         graph.addEdge(10,13);
         graph.addEdge(10,11);
         graph.addEdge(11,12);
+
+        assertEquals(test.findLca(1,1), new Integer(1));
+        assertEquals(test.findLca(2,3), new Integer(1));
+        assertEquals(test.findLca(7,8), new Integer(5));
+        assertEquals(test.findLca(9,10), new Integer(10));
+        assertEquals(test.findLca(12,6), new Integer(1));
+    }
+
+    // tests with a standard DAG
+    @Test
+    public void testNormalCases()
+    {
+        DirectedAcyclicGraph<Integer, DefaultEdge> graph = new DirectedAcyclicGraph<Integer, DefaultEdge>(DefaultEdge.class);
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG(graph);
 
-        System.out.println(test.findLca(9,12));
 
-        assertEquals(test.printGraph(), "([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], " +
-                "[(1,2), (1,3), (2,4), (4,6), (3,5), (5,8), (5,7), (7,10), (10,9), (10,13), (10,11), (11,12)])");
+        for(int i = 1; i < 9; i++)
+            graph.addVertex(i);
+
+        graph.addEdge(1, 2);
+        graph.addEdge(2, 3);
+        graph.addEdge(3, 4);
+        graph.addEdge(4, 5);
+        graph.addEdge(2, 6);
+        graph.addEdge(2, 7);
+        graph.addEdge(6, 5);
+        graph.addEdge(5, 8);
+
+        assertEquals(new Integer(6), test.findLca(6, 8));
+        assertEquals(new Integer(6), test.findLca(8, 6));
+        assertEquals(new Integer(2), test.findLca(7, 8));
+        assertEquals(new Integer(3), test.findLca(3, 3));
+        assertEquals(new Integer(1), test.findLca(1, 5)); // tests one path not descending
     }
+
+    // tests with an unreachable LCA
+    @Test
+    public void testNoLCA()
+    {
+        
+    }
+
+
 }
