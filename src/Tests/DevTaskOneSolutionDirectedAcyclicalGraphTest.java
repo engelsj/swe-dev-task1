@@ -2,6 +2,7 @@ package Tests;
 
 import Solution.DevTaskOneSolutionDAG;
 import org.jgrapht.Graph;
+import org.jgrapht.graph.DefaultDirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DirectedAcyclicGraph;
 import org.jgrapht.graph.SimpleDirectedGraph;
@@ -43,8 +44,7 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
 
     // tests with a standard DAG
     @Test
-    public void testNormalCases()
-    {
+    public void testNormalCases() {
         DirectedAcyclicGraph<Integer, DefaultEdge> graph = new DirectedAcyclicGraph<Integer, DefaultEdge>(DefaultEdge.class);
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG(graph);
 
@@ -70,11 +70,9 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
 
     // tests with an unreachable LCA
     @Test
-    public void testNoLCA()
-    {
+    public void testNoLCA() {
         SimpleDirectedGraph<Integer, DefaultEdge> graph = new SimpleDirectedGraph<>(DefaultEdge.class);
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG(graph);
-
 
         for(int i = 1; i < 10; i++)
             graph.addVertex(i);
@@ -90,6 +88,33 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
         graph.addEdge(8, 9);
 
         assertEquals(null, test.findLca(9, 5));
+    }
+
+    // tests a graph with a loop
+    @Test
+    public  void testLoops() {
+        Graph<Integer, DefaultEdge> graph = new DefaultDirectedGraph<>(DefaultEdge.class);
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG(graph);
+
+        for(int i = 1; i < 10; i++)
+            graph.addVertex(i);
+
+        graph.addEdge(1, 2);
+        graph.addEdge(2, 3);
+        graph.addEdge(3, 4);
+        graph.addEdge(4, 5);
+
+        graph.addEdge(2, 6);
+        graph.addEdge(2, 7);
+        graph.addEdge(6, 5);
+        graph.addEdge(5, 8);
+        graph.addEdge(8, 5);
+        graph.addEdge(8, 8);
+        graph.addEdge(9, 9);
+
+        assertEquals(new Integer(6), test.findLca(8, 6));
+        assertEquals(null, test.findLca(1, 9));
+
     }
 
 
