@@ -4,6 +4,7 @@ import Solution.DevTaskOneSolutionDAG;
 import org.jgrapht.Graph;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DirectedAcyclicGraph;
+import org.jgrapht.graph.SimpleDirectedGraph;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -71,7 +72,24 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
     @Test
     public void testNoLCA()
     {
-        
+        SimpleDirectedGraph<Integer, DefaultEdge> graph = new SimpleDirectedGraph<>(DefaultEdge.class);
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG(graph);
+
+
+        for(int i = 1; i < 10; i++)
+            graph.addVertex(i);
+
+        graph.addEdge(1, 2);
+        graph.addEdge(2, 3);
+        graph.addEdge(3, 4);
+        graph.addEdge(4, 5);
+
+        graph.addEdge(6, 7);
+        graph.addEdge(6, 8);
+        graph.addEdge(7, 9);
+        graph.addEdge(8, 9);
+
+        assertEquals(null, test.findLca(9, 5));
     }
 
 
