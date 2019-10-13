@@ -180,4 +180,19 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
         assertEquals(0, test.getNumberOfVertexes());
     }
 
+    // tests the add edge with an empty graph --> returns an argument error
+    @Test(expected = IllegalArgumentException.class)
+    public void testAddEdgeEmptyGraph(){
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addEdge(0,0);
+    }
+
+    // tests the add edge with a non existent vertex  --> returns an argument error
+    @Test(expected = IllegalArgumentException.class)
+    public void testAddEdgeIllegalEdge(){
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(5);
+        test.addEdge(1,6);
+    }
+    
 }
