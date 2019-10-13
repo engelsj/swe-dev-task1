@@ -10,17 +10,21 @@ public class DevTaskOneSolutionDAG {
 
     Graph graph;
     public DevTaskOneSolutionDAG(){
-
         this.graph = new DefaultDirectedGraph<>(DefaultEdge.class);;
     }
 
-    public void addVertex(int numberOfVertexs){
-        for(int i = 1; i < numberOfVertexs + 1; i++)
-            graph.addVertex(i);
+    public void addVertexes(int numberOfVertexes){
+        if(numberOfVertexes >= 0)
+            for(int i = 1; i < numberOfVertexes + 1; i++)
+                graph.addVertex(i);
     }
 
     public  void addEdge(int x, int y){
         graph.addEdge(x,y);
+    }
+
+    public int getNumberOfVertexes(){
+        return graph.vertexSet().size();
     }
 
     /*

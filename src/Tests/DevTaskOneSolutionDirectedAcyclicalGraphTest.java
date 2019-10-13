@@ -17,7 +17,7 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
     @Test
     public void testExampleLCA(){
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
-        test.addVertex(13);
+        test.addVertexes(13);
 
         test.addEdge(1,2);
         test.addEdge(1,3);
@@ -43,7 +43,7 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
     @Test
     public void testNormalCases() {
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
-        test.addVertex(8);
+        test.addVertexes(8);
 
         test.addEdge(1, 2);
         test.addEdge(2, 3);
@@ -65,7 +65,7 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
     @Test
     public void testNoLCA() {
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
-        test.addVertex(10);
+        test.addVertexes(10);
 
         test.addEdge(1, 2);
         test.addEdge(2, 3);
@@ -85,7 +85,7 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
     public  void testLoops() {
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
 
-        test.addVertex(9);
+        test.addVertexes(9);
 
         test.addEdge(1, 2);
         test.addEdge(2, 3);
@@ -131,10 +131,53 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
     public void testGraphWithNoConnections(){
 
         DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
-        test.addVertex(10);
+        test.addVertexes(10);
         assertEquals(null, test.findLca(1, 2));
         assertEquals(null, test.findLca(2, 3));
         assertEquals(null, test.findLca(3, 4));
     }
-    
+
+    // tests the add vertex method with normal case
+    @Test
+    public void testAddVertexes(){
+
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(10);
+        assertEquals(10, test.getNumberOfVertexes());
+    }
+
+    // tests the add vertex method with zero case
+    @Test
+    public void testAddVertexesZero(){
+
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(0);
+        assertEquals(0, test.getNumberOfVertexes());
+    }
+
+    // tests the add vertex method with negative number
+    @Test
+    public void testAddVertexesNegative(){
+
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(-1);
+        assertEquals(0, test.getNumberOfVertexes());
+    }
+
+    // tests the add vertex method with max value number
+    @Test
+    public void testAddVertexesMaxValue(){
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(Integer.MAX_VALUE);
+        assertEquals(0, test.getNumberOfVertexes());
+    }
+
+    // tests the add vertex method with max value number
+    @Test
+    public void testAddVertexesMinValue(){
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(Integer.MIN_VALUE);
+        assertEquals(0, test.getNumberOfVertexes());
+    }
+
 }
