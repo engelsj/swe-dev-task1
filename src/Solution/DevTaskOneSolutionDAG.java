@@ -3,13 +3,24 @@ package Solution;
 
 import org.jgrapht.Graph;
 import org.jgrapht.alg.NaiveLcaFinder;
+import org.jgrapht.graph.DefaultDirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 
 public class DevTaskOneSolutionDAG {
 
     Graph graph;
-    public DevTaskOneSolutionDAG(Graph<Integer, DefaultEdge> graph){
-        this.graph = graph;
+    public DevTaskOneSolutionDAG(){
+
+        this.graph = new DefaultDirectedGraph<>(DefaultEdge.class);;
+    }
+
+    public void addVertex(int numberOfVertexs){
+        for(int i = 1; i < numberOfVertexs + 1; i++)
+            graph.addVertex(i);
+    }
+
+    public  void addEdge(int x, int y){
+        graph.addEdge(x,y);
     }
 
     /*

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5319e129-474b-4ab9-ad3e-2b0b919ab479" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution/DevTaskOneSolutionDAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution/DevTaskOneSolutionDAG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/DevTaskOneSolutionDirectedAcyclicalGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/DevTaskOneSolutionDirectedAcyclicalGraphTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,20 +34,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolutionDAG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tests/DevTaskOneSolutionDirectedAcyclicalGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="369">
+              <caret line="119" column="51" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,52 +64,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolutionDAG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tests/DevTaskOneSolutionDirectedAcyclicalGraphTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#468#490#0" expanded="true" />
-                <element signature="e#1430#1452#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/swe-dev-task1.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Solution/Tree/BSTNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -147,8 +110,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-160" />
-    <option name="y" value="27" />
+    <option name="x" value="110" />
+    <option name="y" value="23" />
     <option name="width" value="1593" />
     <option name="height" value="1023" />
   </component>
@@ -157,8 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,6 +148,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,8 +198,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testLoops">
-    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testExampleLCA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testGraphWithNoConnections">
+    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
         <pattern>
@@ -246,13 +209,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.DevTaskOneSolutionDirectedAcyclicalGraphTest" />
-      <option name="METHOD_NAME" value="testExampleLCA" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swe-dev-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DevTaskOneSolutionDirectedAcyclicalGraphTest" />
+      <option name="METHOD_NAME" value="testEmptyGraph" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testLCA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraphDifferentVertex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swe-dev-task1" />
       <extension name="coverage">
         <pattern>
@@ -262,7 +240,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.DevTaskOneSolutionDirectedAcyclicalGraphTest" />
-      <option name="METHOD_NAME" value="testLCA" />
+      <option name="METHOD_NAME" value="testEmptyGraphDifferentVertex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testGraphWithNoConnections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swe-dev-task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DevTaskOneSolutionDirectedAcyclicalGraphTest" />
+      <option name="METHOD_NAME" value="testGraphWithNoConnections" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -284,45 +278,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testNoLCA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="swe-dev-task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DevTaskOneSolutionDirectedAcyclicalGraphTest" />
-      <option name="METHOD_NAME" value="testNoLCA" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testNormalCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="swe-dev-task1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.DevTaskOneSolutionDirectedAcyclicalGraphTest" />
-      <option name="METHOD_NAME" value="testNormalCases" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testGraphWithNoConnections" />
+        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraphDifferentVertex" />
+        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" />
+        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest" />
         <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testLoops" />
-        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testNoLCA" />
-        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testNormalCases" />
-        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testExampleLCA" />
-        <item itemvalue="JUnit.DevTaskOneSolutionDirectedAcyclicalGraphTest.testLCA" />
       </list>
     </recent_temporary>
   </component>
@@ -348,50 +310,51 @@
       <workItem from="1570701749664" duration="463000" />
       <workItem from="1570716013588" duration="2096000" />
       <workItem from="1570781356220" duration="356000" />
-      <workItem from="1570887618951" duration="4378000" />
+      <workItem from="1570887618951" duration="4762000" />
+      <workItem from="1570961982857" duration="1158000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testLCA - 2019.10.12 at 15h 17m 01s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testLCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testLCA - 2019.10.12 at 15h 17m 34s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testLCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testLCA - 2019.10.12 at 15h 17m 55s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testLCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testExampleLCA - 2019.10.12 at 15h 22m 33s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testExampleLCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testNormalCases - 2019.10.12 at 15h 29m 15s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testNormalCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testNormalCases - 2019.10.12 at 15h 31m 45s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testNormalCases" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testNoLCA - 2019.10.12 at 15h 48m 00s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testNoLCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testNoLCA - 2019.10.12 at 15h 51m 46s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testNoLCA" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testNoLCA - 2019.10.12 at 15h 54m 16s.xml">
-      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testNoLCA" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testLoops - 2019.10.12 at 16h 00m 22s.xml">
       <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testLoops" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testLoops - 2019.10.12 at 16h 01m 19s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testLoops" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest - 2019.10.13 at 11h 31m 14s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testEmptyGraph - 2019.10.13 at 11h 32m 43s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testEmptyGraph - 2019.10.13 at 11h 32m 55s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testEmptyGraph - 2019.10.13 at 11h 34m 05s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testEmptyGraph - 2019.10.13 at 11h 34m 50s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testEmptyGraph - 2019.10.13 at 11h 35m 28s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testEmptyGraph - 2019.10.13 at 11h 35m 56s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DevTaskOneSolutionDirectedAcyclicalGraphTest_testEmptyGraphDifferentVertex - 2019.10.13 at 11h 38m 22s.xml">
+      <configuration name="DevTaskOneSolutionDirectedAcyclicalGraphTest.testEmptyGraphDifferentVertex" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24198000" />
+    <option name="totallyTimeSpent" value="25740000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-160" y="27" width="1134" height="927" extended-state="0" />
+    <frame x="110" y="23" width="1593" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3992674" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2843327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +364,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32934132" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.32934132" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2953813" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -422,6 +385,38 @@
       <window_info anchor="right" id="Database" order="8" />
       <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3298969" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2843327" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32934132" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" visible="true" weight="0.32934132" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2953813" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3298969" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -438,27 +433,6 @@
     <entry file="file://$PROJECT_DIR$/src/Solution/Tree/Tree.java" />
     <entry file="file://$PROJECT_DIR$/src/Solution/DAG/DAGGraph.java" />
     <entry file="file://$PROJECT_DIR$/src/Solution/DAG/DAGNode.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution/Tree/BSTNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swe-dev-task1.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -467,10 +441,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolutionBST.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="315">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swe-dev-task1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution/Tree/BSTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -484,26 +472,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolutionBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution/DevTaskOneSolutionDAG.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="330">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/DevTaskOneSolutionDirectedAcyclicalGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
+        <state relative-caret-position="369">
+          <caret line="119" column="51" selection-start-line="119" selection-start-column="51" selection-end-line="119" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#468#490#0" expanded="true" />
-            <element signature="e#1430#1452#0" expanded="true" />
           </folding>
         </state>
       </provider>
