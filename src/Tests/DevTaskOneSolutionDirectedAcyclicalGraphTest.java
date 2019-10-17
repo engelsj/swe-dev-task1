@@ -194,5 +194,33 @@ public class DevTaskOneSolutionDirectedAcyclicalGraphTest {
         test.addVertexes(5);
         test.addEdge(1,6);
     }
+
+    // tests if all the edges are in line
+    @Test
+    public void testInLineEdges(){
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(5);
+        test.addEdge(1,2);
+        test.addEdge(2,3);
+        test.addEdge(3,4);
+        test.addEdge(4,5);
+        assertEquals(new Integer(1), test.findLca(1,5));
+        assertEquals(new Integer(1), test.findLca(5,1));
+    }
+
+    // tests if all the edges are in line
+    @Test
+    public void testAllSameVertex(){
+        DevTaskOneSolutionDAG test = new DevTaskOneSolutionDAG();
+        test.addVertexes(5);
+        test.addEdge(1,2);
+        test.addEdge(1,3);
+        test.addEdge(1,4);
+        test.addEdge(1,5);
+        assertEquals(new Integer(1), test.findLca(1,5));
+        assertEquals(new Integer(1), test.findLca(5,1));
+        assertEquals(new Integer(1), test.findLca(2,3));
+        assertEquals(new Integer(1), test.findLca(3,5));
+    }
     
 }
